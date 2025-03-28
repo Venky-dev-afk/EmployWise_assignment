@@ -1,12 +1,35 @@
-# React + Vite
+# User Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is a React-based user management dashboard that allows authenticated users to view a paginated list of users, edit user details, and manage authentication. The backend provides user data, and authentication is managed using a token-based system.
 
-Currently, two official plugins are available:
+## Features
+- **User Authentication** (Login & Logout)
+- **Protected Routes** (Using `PrivateRoute`)
+- **Paginated User List** (Fetched from an API)
+- **User Profile Display** (With Avatar, Name, and Email)
+- **User Editing** (Navigation to the edit page)
+- **Logout Functionality**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+Ensure you have the following installed before proceeding:
+- **Node.js** (v16+ recommended)
+- **npm** or **yarn**
+- **Backend API** (If using a custom backend, ensure it's running)
+
+### Steps to Run the Project
+
+1. **Clone the Repository**  
+   ```sh
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+
+Note : Since The api provided for this assignment is a dummy api the edit changes doesn't take place as the backend is not being updated, but the edit functionality in the project works well for the real api.
+
+
+I have deployed the project on Vercel you can access it from the below link:
+https://employ-wise-assignment-ten.vercel.app/
