@@ -2,6 +2,8 @@ import axios from 'axios'
 
 const api_url = "https://reqres.in/api/login";
 
+
+//authorization at the time of login
 export const loginUser = async (email, password) => {
     try{
         const response = await axios.post(api_url, {email, password});
